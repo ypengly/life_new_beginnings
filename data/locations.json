@@ -1,0 +1,571 @@
+{
+ "world": {
+  "cols": 4,
+  "rows": 2,
+  "cell_w": 1100,
+  "cell_h": 900
+ },
+ "districts": [
+  {
+   "id": "residential",
+   "name": "Residential District",
+   "col": 0,
+   "row": 0,
+   "unlock": 0,
+   "color": "#8fbf8f"
+  },
+  {
+   "id": "downtown",
+   "name": "Downtown",
+   "col": 1,
+   "row": 0,
+   "unlock": 0,
+   "color": "#a9b4c8"
+  },
+  {
+   "id": "financial",
+   "name": "Financial District",
+   "col": 2,
+   "row": 0,
+   "unlock": 8000,
+   "color": "#bdae8c"
+  },
+  {
+   "id": "suburbs",
+   "name": "Suburbs",
+   "col": 3,
+   "row": 0,
+   "unlock": 15000,
+   "color": "#a8cf9a"
+  },
+  {
+   "id": "commercial",
+   "name": "Commercial District",
+   "col": 0,
+   "row": 1,
+   "unlock": 500,
+   "color": "#d1b093"
+  },
+  {
+   "id": "plaza",
+   "name": "Central Park",
+   "col": 1,
+   "row": 1,
+   "unlock": 0,
+   "color": "#7fc47f"
+  },
+  {
+   "id": "entertainment",
+   "name": "Entertainment District",
+   "col": 2,
+   "row": 1,
+   "unlock": 1500,
+   "color": "#b896d4"
+  },
+  {
+   "id": "industrial",
+   "name": "Industrial District",
+   "col": 3,
+   "row": 1,
+   "unlock": 3000,
+   "color": "#a0a0a0"
+  }
+ ],
+ "buildings": [
+  {
+   "id": "apt_basic",
+   "name": "Maple Apartments",
+   "type": "home",
+   "district": "residential",
+   "x": 100,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": "apt_basic"
+  },
+  {
+   "id": "grocery_res",
+   "name": "Corner Grocery",
+   "type": "shop_food",
+   "district": "residential",
+   "x": 450,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "cafe_res",
+   "name": "Sunrise Cafe",
+   "type": "cafe",
+   "district": "residential",
+   "x": 800,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "clinic",
+   "name": "St. Mary Clinic",
+   "type": "hospital",
+   "district": "residential",
+   "x": 100,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "park_res",
+   "name": "Pocket Park",
+   "type": "park",
+   "district": "residential",
+   "x": 450,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "apt_mid",
+   "name": "Elm Court Apartments",
+   "type": "home",
+   "district": "residential",
+   "x": 800,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": "apt_mid"
+  },
+  {
+   "id": "office_nova",
+   "name": "Nova Tech Tower",
+   "type": "office",
+   "district": "downtown",
+   "x": 100,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "bank_dt",
+   "name": "City Bank",
+   "type": "bank",
+   "district": "downtown",
+   "x": 450,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "apt_nice",
+   "name": "Riverside Flats",
+   "type": "home",
+   "district": "downtown",
+   "x": 800,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": "apt_nice"
+  },
+  {
+   "id": "uni",
+   "name": "City University",
+   "type": "university",
+   "district": "downtown",
+   "x": 100,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "gym_dt",
+   "name": "Iron Gym",
+   "type": "gym",
+   "district": "downtown",
+   "x": 450,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "bistro",
+   "name": "Bistro Central",
+   "type": "restaurant",
+   "district": "downtown",
+   "x": 800,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "brokerage",
+   "name": "Apex Investments",
+   "type": "brokerage",
+   "district": "financial",
+   "x": 100,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "bank_fin",
+   "name": "Meridian Bank",
+   "type": "bank",
+   "district": "financial",
+   "x": 450,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "office_summit",
+   "name": "Summit Corp",
+   "type": "office",
+   "district": "financial",
+   "x": 800,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "apt_luxury",
+   "name": "Skyline Penthouse",
+   "type": "home",
+   "district": "financial",
+   "x": 100,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": "apt_luxury"
+  },
+  {
+   "id": "realestate",
+   "name": "Prime Realty",
+   "type": "realestate",
+   "district": "financial",
+   "x": 450,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "lux_rest",
+   "name": "The Gilded Fork",
+   "type": "restaurant",
+   "district": "financial",
+   "x": 800,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "house_small",
+   "name": "Starter House",
+   "type": "home",
+   "district": "suburbs",
+   "x": 100,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": "house_small"
+  },
+  {
+   "id": "house_family",
+   "name": "Family House",
+   "type": "home",
+   "district": "suburbs",
+   "x": 450,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": "house_family"
+  },
+  {
+   "id": "house_lux",
+   "name": "Luxury Villa",
+   "type": "home",
+   "district": "suburbs",
+   "x": 800,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": "house_lux"
+  },
+  {
+   "id": "school",
+   "name": "Greenfield School",
+   "type": "school",
+   "district": "suburbs",
+   "x": 100,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "park_sub",
+   "name": "Willow Park",
+   "type": "park",
+   "district": "suburbs",
+   "x": 450,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "car_dealer",
+   "name": "Drive Auto Sales",
+   "type": "car_dealer",
+   "district": "suburbs",
+   "x": 800,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "supermarket",
+   "name": "MegaMart",
+   "type": "shop_food",
+   "district": "commercial",
+   "x": 100,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "clothing",
+   "name": "Threads & Co",
+   "type": "shop_clothes",
+   "district": "commercial",
+   "x": 450,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "electronics",
+   "name": "Volt Electronics",
+   "type": "shop_electronics",
+   "district": "commercial",
+   "x": 800,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "unit_shop_a",
+   "name": "Shop Unit A",
+   "type": "commercial_property",
+   "district": "commercial",
+   "x": 100,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": "unit_shop_a"
+  },
+  {
+   "id": "unit_shop_b",
+   "name": "Shop Unit B",
+   "type": "commercial_property",
+   "district": "commercial",
+   "x": 450,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": "unit_shop_b"
+  },
+  {
+   "id": "furniture",
+   "name": "HomeNest Furniture",
+   "type": "shop_furniture",
+   "district": "commercial",
+   "x": 800,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "park_central",
+   "name": "Central Park Gardens",
+   "type": "park",
+   "district": "plaza",
+   "x": 100,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "cafe_plaza",
+   "name": "Fountain Cafe",
+   "type": "cafe",
+   "district": "plaza",
+   "x": 800,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "library",
+   "name": "Public Library",
+   "type": "library",
+   "district": "plaza",
+   "x": 100,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "gas",
+   "name": "QuickFuel Station",
+   "type": "gas",
+   "district": "plaza",
+   "x": 800,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "cinema",
+   "name": "Starlight Cinema",
+   "type": "cinema",
+   "district": "entertainment",
+   "x": 100,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "arcade",
+   "name": "Pixel Arcade",
+   "type": "arcade",
+   "district": "entertainment",
+   "x": 450,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "nightclub",
+   "name": "Club Neon",
+   "type": "nightclub",
+   "district": "entertainment",
+   "x": 800,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "sports",
+   "name": "Arena Sports Center",
+   "type": "sports_center",
+   "district": "entertainment",
+   "x": 100,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "beach",
+   "name": "Sunset Beach",
+   "type": "beach",
+   "district": "entertainment",
+   "x": 450,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "diner_ent",
+   "name": "Neon Diner",
+   "type": "restaurant",
+   "district": "entertainment",
+   "x": 800,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "factory",
+   "name": "Ironworks Factory",
+   "type": "factory",
+   "district": "industrial",
+   "x": 100,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "warehouse",
+   "name": "Harbor Warehouse",
+   "type": "warehouse",
+   "district": "industrial",
+   "x": 450,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "workshop",
+   "name": "Gearhead Workshop",
+   "type": "workshop",
+   "district": "industrial",
+   "x": 800,
+   "y": 100,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "construction",
+   "name": "BuildRight Construction",
+   "type": "construction",
+   "district": "industrial",
+   "x": 100,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": ""
+  },
+  {
+   "id": "unit_ind",
+   "name": "Industrial Unit",
+   "type": "commercial_property",
+   "district": "industrial",
+   "x": 450,
+   "y": 520,
+   "w": 260,
+   "h": 170,
+   "prop": "unit_ind"
+  }
+ ]
+}

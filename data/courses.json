@@ -1,0 +1,145 @@
+[
+ {
+  "id": "high_school",
+  "name": "High School Diploma",
+  "school": "school",
+  "cost": 0,
+  "sessions": 20,
+  "grants": "high_school",
+  "skills": {
+   "communication": 6
+  },
+  "exam": 25,
+  "prereq": []
+ },
+ {
+  "id": "coding_bootcamp",
+  "name": "Coding Bootcamp",
+  "school": "university",
+  "cost": 1500,
+  "sessions": 12,
+  "grants": "coding_bootcamp",
+  "skills": {
+   "programming": 18
+  },
+  "exam": 35,
+  "prereq": []
+ },
+ {
+  "id": "cs_degree",
+  "name": "Computer Science Degree",
+  "school": "university",
+  "cost": 9000,
+  "sessions": 40,
+  "grants": "cs_degree",
+  "skills": {
+   "programming": 38,
+   "mechanics": 5
+  },
+  "exam": 48,
+  "prereq": [
+   "high_school"
+  ]
+ },
+ {
+  "id": "business_degree",
+  "name": "Business Degree",
+  "school": "university",
+  "cost": 8000,
+  "sessions": 36,
+  "grants": "business_degree",
+  "skills": {
+   "business": 30,
+   "finance": 18,
+   "management": 15
+  },
+  "exam": 46,
+  "prereq": [
+   "high_school"
+  ]
+ },
+ {
+  "id": "law_degree",
+  "name": "Law Degree",
+  "school": "university",
+  "cost": 12000,
+  "sessions": 48,
+  "grants": "law_degree",
+  "skills": {
+   "communication": 35,
+   "business": 8
+  },
+  "exam": 52,
+  "prereq": [
+   "high_school"
+  ]
+ },
+ {
+  "id": "med_degree",
+  "name": "Medical Degree",
+  "school": "university",
+  "cost": 20000,
+  "sessions": 60,
+  "grants": "med_degree",
+  "skills": {},
+  "exam": 58,
+  "prereq": [
+   "high_school"
+  ]
+ },
+ {
+  "id": "eng_degree",
+  "name": "Engineering Degree",
+  "school": "university",
+  "cost": 9000,
+  "sessions": 40,
+  "grants": "eng_degree",
+  "skills": {
+   "mechanics": 35,
+   "programming": 10
+  },
+  "exam": 48,
+  "prereq": [
+   "high_school"
+  ]
+ },
+ {
+  "id": "accounting_cert",
+  "name": "Accounting Certificate",
+  "school": "university",
+  "cost": 1200,
+  "sessions": 14,
+  "grants": "accounting_cert",
+  "skills": {
+   "finance": 25
+  },
+  "exam": 36,
+  "prereq": []
+ },
+ {
+  "id": "design_cert",
+  "name": "Design Certificate",
+  "school": "university",
+  "cost": 800,
+  "sessions": 10,
+  "grants": "design_cert",
+  "skills": {
+   "design": 22
+  },
+  "exam": 30,
+  "prereq": []
+ },
+ {
+  "id": "marketing_cert",
+  "name": "Marketing Certificate",
+  "school": "university",
+  "cost": 900,
+  "sessions": 10,
+  "grants": "marketing_cert",
+  "skills": {
+   "marketing": 22
+  },
+  "exam": 30,
+  "prereq": []
+ }
+]

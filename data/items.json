@@ -1,0 +1,320 @@
+[
+ {
+  "id": "bread",
+  "name": "Bread & Snacks",
+  "cat": "food",
+  "price": 4,
+  "shop": "shop_food",
+  "effects": {
+   "stats": {
+    "hunger": 22,
+    "happiness": 1
+   }
+  },
+  "usable": true
+ },
+ {
+  "id": "ready_meal",
+  "name": "Ready Meal",
+  "cat": "food",
+  "price": 8,
+  "shop": "shop_food",
+  "effects": {
+   "stats": {
+    "hunger": 38,
+    "happiness": 2
+   }
+  },
+  "usable": true
+ },
+ {
+  "id": "ingredients",
+  "name": "Cooking Ingredients",
+  "cat": "food",
+  "price": 14,
+  "shop": "shop_food",
+  "effects": {
+   "stats": {
+    "hunger": 0
+   }
+  },
+  "usable": false
+ },
+ {
+  "id": "energy_drink",
+  "name": "Energy Drink",
+  "cat": "food",
+  "price": 3,
+  "shop": "shop_food",
+  "effects": {
+   "stats": {
+    "energy": 15,
+    "stress": 2
+   }
+  },
+  "usable": true
+ },
+ {
+  "id": "flowers",
+  "name": "Bouquet of Flowers",
+  "cat": "gift",
+  "price": 18,
+  "shop": "shop_food",
+  "effects": {},
+  "gift": 8,
+  "usable": false
+ },
+ {
+  "id": "chocolates",
+  "name": "Box of Chocolates",
+  "cat": "gift",
+  "price": 12,
+  "shop": "shop_food",
+  "effects": {},
+  "gift": 6,
+  "usable": false
+ },
+ {
+  "id": "first_aid",
+  "name": "First Aid Kit",
+  "cat": "care",
+  "price": 20,
+  "shop": "shop_food",
+  "effects": {
+   "stats": {
+    "health": 25
+   }
+  },
+  "usable": true
+ },
+ {
+  "id": "t_shirt",
+  "name": "Plain T-Shirt",
+  "cat": "clothing",
+  "price": 15,
+  "shop": "shop_clothes",
+  "effects": {},
+  "slot": "top",
+  "charisma": 1,
+  "usable": true
+ },
+ {
+  "id": "nice_shirt",
+  "name": "Dress Shirt",
+  "cat": "clothing",
+  "price": 55,
+  "shop": "shop_clothes",
+  "effects": {},
+  "slot": "top",
+  "charisma": 4,
+  "usable": true
+ },
+ {
+  "id": "suit",
+  "name": "Tailored Suit",
+  "cat": "clothing",
+  "price": 320,
+  "shop": "shop_clothes",
+  "effects": {},
+  "slot": "top",
+  "charisma": 9,
+  "usable": true
+ },
+ {
+  "id": "sneakers",
+  "name": "Sneakers",
+  "cat": "clothing",
+  "price": 60,
+  "shop": "shop_clothes",
+  "effects": {},
+  "slot": "shoes",
+  "charisma": 2,
+  "usable": true
+ },
+ {
+  "id": "dress_shoes",
+  "name": "Dress Shoes",
+  "cat": "clothing",
+  "price": 140,
+  "shop": "shop_clothes",
+  "effects": {},
+  "slot": "shoes",
+  "charisma": 5,
+  "usable": true
+ },
+ {
+  "id": "sunglasses",
+  "name": "Sunglasses",
+  "cat": "clothing",
+  "price": 45,
+  "shop": "shop_clothes",
+  "effects": {},
+  "slot": "accessory",
+  "charisma": 3,
+  "usable": true
+ },
+ {
+  "id": "perfume",
+  "name": "Perfume / Cologne",
+  "cat": "gift",
+  "price": 70,
+  "shop": "shop_clothes",
+  "effects": {},
+  "gift": 14,
+  "usable": false
+ },
+ {
+  "id": "laptop",
+  "name": "Laptop",
+  "cat": "electronics",
+  "price": 650,
+  "shop": "shop_electronics",
+  "effects": {},
+  "study_bonus": 0.5,
+  "usable": false
+ },
+ {
+  "id": "console",
+  "name": "Game Console",
+  "cat": "electronics",
+  "price": 400,
+  "shop": "shop_electronics",
+  "effects": {},
+  "game_bonus": 5,
+  "usable": false
+ },
+ {
+  "id": "headphones",
+  "name": "Headphones",
+  "cat": "gift",
+  "price": 90,
+  "shop": "shop_electronics",
+  "effects": {},
+  "gift": 12,
+  "usable": false
+ },
+ {
+  "id": "smart_watch",
+  "name": "Smart Watch",
+  "cat": "gift",
+  "price": 260,
+  "shop": "shop_electronics",
+  "effects": {},
+  "gift": 20,
+  "usable": false
+ },
+ {
+  "id": "old_sofa",
+  "name": "Secondhand Sofa",
+  "cat": "furniture",
+  "price": 120,
+  "shop": "shop_furniture",
+  "effects": {},
+  "comfort": 2,
+  "usable": false
+ },
+ {
+  "id": "bed",
+  "name": "Good Mattress",
+  "cat": "furniture",
+  "price": 450,
+  "shop": "shop_furniture",
+  "effects": {},
+  "comfort": 4,
+  "sleep_bonus": 3,
+  "usable": false
+ },
+ {
+  "id": "desk",
+  "name": "Desk & Chair",
+  "cat": "furniture",
+  "price": 260,
+  "shop": "shop_furniture",
+  "effects": {},
+  "comfort": 2,
+  "study_bonus": 0.25,
+  "usable": false
+ },
+ {
+  "id": "tv",
+  "name": "Television",
+  "cat": "furniture",
+  "price": 500,
+  "shop": "shop_furniture",
+  "effects": {},
+  "comfort": 3,
+  "usable": false
+ },
+ {
+  "id": "burger",
+  "name": "Burger & Fries",
+  "cat": "meal",
+  "price": 12,
+  "shop": "restaurant",
+  "effects": {
+   "stats": {
+    "hunger": 55,
+    "happiness": 4
+   }
+  },
+  "minutes": 45
+ },
+ {
+  "id": "pasta",
+  "name": "Pasta Dinner",
+  "cat": "meal",
+  "price": 20,
+  "shop": "restaurant",
+  "effects": {
+   "stats": {
+    "hunger": 65,
+    "happiness": 7
+   }
+  },
+  "minutes": 60
+ },
+ {
+  "id": "steak",
+  "name": "Steak Dinner",
+  "cat": "meal",
+  "price": 48,
+  "shop": "restaurant",
+  "effects": {
+   "stats": {
+    "hunger": 75,
+    "happiness": 12,
+    "health": 1
+   }
+  },
+  "minutes": 75
+ },
+ {
+  "id": "coffee",
+  "name": "Coffee",
+  "cat": "meal",
+  "price": 4,
+  "shop": "cafe",
+  "effects": {
+   "stats": {
+    "energy": 12,
+    "hunger": 4,
+    "happiness": 2
+   }
+  },
+  "minutes": 15
+ },
+ {
+  "id": "pastry",
+  "name": "Pastry & Tea",
+  "cat": "meal",
+  "price": 9,
+  "shop": "cafe",
+  "effects": {
+   "stats": {
+    "hunger": 25,
+    "happiness": 5
+   }
+  },
+  "minutes": 30
+ }
+]

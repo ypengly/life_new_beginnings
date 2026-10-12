@@ -1,0 +1,50 @@
+[
+ {
+  "id": "NOVA",
+  "name": "NovaTech",
+  "base": 50,
+  "vol": 0.03,
+  "drift": 0.0006,
+  "beta": 1.4
+ },
+ {
+  "id": "GRNE",
+  "name": "GreenEnergy Co",
+  "base": 32,
+  "vol": 0.026,
+  "drift": 0.0004,
+  "beta": 1.1
+ },
+ {
+  "id": "BEAN",
+  "name": "BeanBros Coffee",
+  "base": 18,
+  "vol": 0.018,
+  "drift": 0.0003,
+  "beta": 0.8
+ },
+ {
+  "id": "MEDX",
+  "name": "MedixHealth",
+  "base": 75,
+  "vol": 0.016,
+  "drift": 0.0004,
+  "beta": 0.7
+ },
+ {
+  "id": "AUTO",
+  "name": "Autoworks",
+  "base": 40,
+  "vol": 0.022,
+  "drift": 0.0002,
+  "beta": 1.2
+ },
+ {
+  "id": "CITY",
+  "name": "City Index Fund",
+  "base": 100,
+  "vol": 0.009,
+  "drift": 0.0003,
+  "beta": 1.0
+ }
+]

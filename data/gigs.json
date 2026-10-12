@@ -1,0 +1,50 @@
+[
+ {
+  "id": "logo",
+  "title": "Logo design",
+  "skill": "design",
+  "req": 8,
+  "pay": 90,
+  "sessions": 2
+ },
+ {
+  "id": "website",
+  "title": "Build a website",
+  "skill": "programming",
+  "req": 15,
+  "pay": 260,
+  "sessions": 4
+ },
+ {
+  "id": "video",
+  "title": "Video editing",
+  "skill": "design",
+  "req": 12,
+  "pay": 180,
+  "sessions": 3
+ },
+ {
+  "id": "writing",
+  "title": "Article writing",
+  "skill": "communication",
+  "req": 8,
+  "pay": 70,
+  "sessions": 2
+ },
+ {
+  "id": "translation",
+  "title": "Document translation",
+  "skill": "communication",
+  "req": 12,
+  "pay": 110,
+  "sessions": 3
+ },
+ {
+  "id": "marketing",
+  "title": "Social media campaign",
+  "skill": "marketing",
+  "req": 10,
+  "pay": 150,
+  "sessions": 3
+ }
+]

@@ -1,0 +1,571 @@
+[
+ {
+  "id": "job_offer",
+  "title": "Job Offer",
+  "body": "A recruiter message: a company is hiring and thinks your profile fits. A signing bonus is on the table.",
+  "weight": 2,
+  "once": false,
+  "cond": {
+   "min_skill_any": 15
+  },
+  "options": [
+   {
+    "label": "Accept the bonus & interview",
+    "result": "You nailed the interview and got a $300 bonus.",
+    "effects": {
+     "money": 300,
+     "rep": 2,
+     "stats": {
+      "happiness": 4
+     }
+    }
+   },
+   {
+    "label": "Politely decline",
+    "result": "You stay put.",
+    "effects": {
+     "stats": {}
+    }
+   }
+  ]
+ },
+ {
+  "id": "unexpected_expense",
+  "title": "Unexpected Expense",
+  "body": "Your laptop charger fries, the fridge dies and a parking ticket arrives. $180 in total.",
+  "weight": 4,
+  "once": false,
+  "cond": {},
+  "options": [
+   {
+    "label": "Pay it all",
+    "result": "Ouch, but handled.",
+    "effects": {
+     "money": -180,
+     "stats": {
+      "stress": 4
+     }
+    }
+   },
+   {
+    "label": "Pay just the essentials",
+    "result": "You cover the fridge only.",
+    "effects": {
+     "money": -90,
+     "stats": {
+      "stress": 8
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "bonus",
+  "title": "Surprise Bonus",
+  "body": "Your employer rewards the team for a strong quarter.",
+  "weight": 2,
+  "once": false,
+  "cond": {
+   "has_job": true
+  },
+  "options": [
+   {
+    "label": "Spend it",
+    "result": "A nice treat!",
+    "effects": {
+     "money": 250,
+     "stats": {
+      "happiness": 8
+     }
+    }
+   },
+   {
+    "label": "Save it",
+    "result": "Responsible.",
+    "effects": {
+     "money": 250,
+     "stats": {
+      "discipline": 1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "car_accident",
+  "title": "Car Trouble",
+  "body": "A fender bender: nobody is hurt, but your vehicle needs repairs.",
+  "weight": 2,
+  "once": false,
+  "cond": {
+   "has_vehicle": true
+  },
+  "options": [
+   {
+    "label": "Repair at a garage ($700)",
+    "result": "Fixed properly.",
+    "effects": {
+     "money": -700,
+     "stats": {
+      "stress": 6
+     }
+    }
+   },
+   {
+    "label": "Patch it yourself",
+    "result": "A bit rough, but cheaper.",
+    "effects": {
+     "money": -250,
+     "stats": {
+      "stress": 10
+     },
+     "skills": {
+      "mechanics": 1
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "friend_loan",
+  "title": "A Friend Asks for Help",
+  "body": "{npc} asks to borrow $500 for an emergency.",
+  "weight": 3,
+  "once": false,
+  "cond": {
+   "min_money": 600,
+   "need_npc": true
+  },
+  "options": [
+   {
+    "label": "Help ($500)",
+    "result": "{npc} is deeply grateful.",
+    "effects": {
+     "money": -500,
+     "rel_npc": 14
+    }
+   },
+   {
+    "label": "Refuse",
+    "result": "{npc} looks disappointed.",
+    "effects": {
+     "rel_npc": -8
+    }
+   },
+   {
+    "label": "Offer $150",
+    "result": "{npc} appreciates the gesture.",
+    "effects": {
+     "money": -150,
+     "rel_npc": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "new_friend",
+  "title": "New Friend",
+  "body": "You strike up a conversation with {npc} while waiting in line.",
+  "weight": 3,
+  "once": false,
+  "cond": {
+   "need_npc": true
+  },
+  "options": [
+   {
+    "label": "Chat for a while",
+    "result": "You got along well!",
+    "effects": {
+     "rel_npc": 10,
+     "stats": {
+      "social": 1,
+      "happiness": 4
+     }
+    }
+   },
+   {
+    "label": "Say hi and move on",
+    "result": "A polite nod.",
+    "effects": {
+     "rel_npc": 2
+    }
+   }
+  ]
+ },
+ {
+  "id": "business_opportunity",
+  "title": "Business Opportunity",
+  "body": "A local supplier offers a bulk deal. Invest $1,000 for a likely return.",
+  "weight": 2,
+  "once": false,
+  "cond": {
+   "min_money": 1500,
+   "min_networth": 3000
+  },
+  "options": [
+   {
+    "label": "Invest",
+    "result": "The deal paid off: +$1,600 (gamble paid!).",
+    "effects": {
+     "money": 600,
+     "stats": {
+      "stress": 2
+     }
+    }
+   },
+   {
+    "label": "Pass",
+    "result": "Maybe next time.",
+    "effects": {}
+   }
+  ]
+ },
+ {
+  "id": "market_crash",
+  "title": "Market Crash",
+  "body": "Headlines scream recession. Stock prices are tumbling.",
+  "weight": 1,
+  "once": false,
+  "cond": {
+   "min_day": 120
+  },
+  "options": [
+   {
+    "label": "Stay calm",
+    "result": "You brace for a rough patch.",
+    "effects": {
+     "mood": -2.5,
+     "stats": {
+      "stress": 6
+     }
+    }
+   },
+   {
+    "label": "Read up on finance",
+    "result": "You learn from the chaos.",
+    "effects": {
+     "mood": -2.5,
+     "skills": {
+      "finance": 1.5
+     },
+     "stats": {
+      "stress": 4
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "market_boom",
+  "title": "Market Rally",
+  "body": "Investors are optimistic. Stocks climb.",
+  "weight": 1,
+  "once": false,
+  "cond": {
+   "min_day": 60
+  },
+  "options": [
+   {
+    "label": "Enjoy the ride",
+    "result": "Green numbers everywhere.",
+    "effects": {
+     "mood": 2.0,
+     "stats": {
+      "happiness": 3
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "birthday",
+  "title": "Birthday Party",
+  "body": "Friends throw you a small surprise party.",
+  "weight": 1,
+  "once": false,
+  "cond": {
+   "min_day": 30
+  },
+  "options": [
+   {
+    "label": "Celebrate",
+    "result": "Great night!",
+    "effects": {
+     "stats": {
+      "happiness": 14,
+      "stress": -8,
+      "social": 2
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "family_emergency",
+  "title": "Family Emergency",
+  "body": "A relative needs help with medical bills.",
+  "weight": 1,
+  "once": false,
+  "cond": {
+   "min_money": 200,
+   "min_day": 40
+  },
+  "options": [
+   {
+    "label": "Send $400",
+    "result": "You helped.",
+    "effects": {
+     "money": -400,
+     "stats": {
+      "stress": 5,
+      "happiness": 3
+     }
+    }
+   },
+   {
+    "label": "Send $100",
+    "result": "Less than hoped.",
+    "effects": {
+     "money": -100,
+     "stats": {
+      "stress": 8
+     }
+    }
+   },
+   {
+    "label": "Can't help",
+    "result": "You feel guilty.",
+    "effects": {
+     "stats": {
+      "stress": 12,
+      "happiness": -8
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "apartment_problem",
+  "title": "Apartment Problem",
+  "body": "The sink floods your kitchen. The landlord is slow to respond.",
+  "weight": 3,
+  "once": false,
+  "cond": {},
+  "options": [
+   {
+    "label": "Hire a plumber ($150)",
+    "result": "Fixed quickly.",
+    "effects": {
+     "money": -150
+    }
+   },
+   {
+    "label": "Fix it yourself",
+    "result": "Messy but done.",
+    "effects": {
+     "skills": {
+      "mechanics": 1
+     },
+     "stats": {
+      "stress": 6,
+      "energy": -10
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "lucky_investment",
+  "title": "Lucky Investment",
+  "body": "A tip from a colleague turned into a nice dividend payout.",
+  "weight": 1,
+  "once": false,
+  "cond": {
+   "min_networth": 3000
+  },
+  "options": [
+   {
+    "label": "Cash out",
+    "result": "+$400!",
+    "effects": {
+     "money": 400,
+     "stats": {
+      "happiness": 6
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "competitor",
+  "title": "Business Competitor",
+  "body": "A rival opened across the street from your business.",
+  "weight": 2,
+  "once": false,
+  "cond": {
+   "has_business": true
+  },
+  "options": [
+   {
+    "label": "Run a promotion ($300)",
+    "result": "Customers stay loyal.",
+    "effects": {
+     "money": -300,
+     "rep": 1
+    }
+   },
+   {
+    "label": "Ignore it",
+    "result": "Some customers wander off.",
+    "effects": {
+     "stats": {
+      "stress": 5
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "festival",
+  "title": "City Festival",
+  "body": "The city holds a street festival with music and food.",
+  "weight": 2,
+  "once": false,
+  "cond": {},
+  "options": [
+   {
+    "label": "Go and enjoy",
+    "result": "A wonderful day!",
+    "effects": {
+     "money": -20,
+     "stats": {
+      "happiness": 15,
+      "social": 2,
+      "stress": -8
+     }
+    }
+   },
+   {
+    "label": "Stay home",
+    "result": "Quiet day in.",
+    "effects": {}
+   }
+  ]
+ },
+ {
+  "id": "storm_damage",
+  "title": "Storm Damage",
+  "body": "A heavy storm knocked out power for a night.",
+  "weight": 1,
+  "once": false,
+  "cond": {},
+  "options": [
+   {
+    "label": "Wait it out",
+    "result": "Candles and board games.",
+    "effects": {
+     "stats": {
+      "stress": 4,
+      "happiness": -2
+     }
+    }
+   }
+  ]
+ },
+ {
+  "id": "story_mentor",
+  "title": "A Stranger's Advice",
+  "body": "Mr. Hale, a retired entrepreneur, chats with you at a cafe and offers advice. (Story)",
+  "weight": 10,
+  "once": true,
+  "cond": {
+   "min_day": 40
+  },
+  "options": [
+   {
+    "label": "Listen closely",
+    "result": "Mr. Hale shares hard-won lessons.",
+    "effects": {
+     "skills": {
+      "business": 3
+     },
+     "stats": {
+      "intelligence": 2
+     },
+     "flag": "story_mentor"
+    }
+   },
+   {
+    "label": "Politely excuse yourself",
+    "result": "You wonder who he was.",
+    "effects": {}
+   }
+  ]
+ },
+ {
+  "id": "story_partner",
+  "title": "Mr. Hale's Proposal",
+  "body": "Mr. Hale returns: he'll back your ambitions with $8,000 and a bit of his reputation. (Story)",
+  "weight": 10,
+  "once": true,
+  "cond": {
+   "min_networth": 15000,
+   "need_flag": "story_mentor"
+  },
+  "options": [
+   {
+    "label": "Accept the backing",
+    "result": "He believes in you.",
+    "effects": {
+     "money": 8000,
+     "rep": 8,
+     "flag": "story_backed"
+    }
+   },
+   {
+    "label": "Decline - go it alone",
+    "result": "You earn his respect.",
+    "effects": {
+     "rep": 3,
+     "stats": {
+      "discipline": 3
+     },
+     "flag": "story_alone"
+    }
+   }
+  ]
+ },
+ {
+  "id": "story_legacy",
+  "title": "The Hale Foundation",
+  "body": "Years later, Mr. Hale's foundation invites you to chair a charity for the city. (Story)",
+  "weight": 10,
+  "once": true,
+  "cond": {
+   "min_networth": 150000,
+   "need_flag": "story_mentor"
+  },
+  "options": [
+   {
+    "label": "Accept the role",
+    "result": "Your name becomes known across the city.",
+    "effects": {
+     "rep": 15,
+     "stats": {
+      "happiness": 10
+     },
+     "flag": "story_legacy"
+    }
+   },
+   {
+    "label": "Decline",
+    "result": "You keep your private life.",
+    "effects": {
+     "stats": {
+      "stress": -5
+     }
+    }
+   }
+  ]
+ }
+]

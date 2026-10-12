@@ -1,0 +1,102 @@
+[
+ {
+  "id": "apt_basic",
+  "name": "Maple Apartments #4",
+  "kind": "home",
+  "rent": 450,
+  "price": 0,
+  "quality": 1,
+  "maintenance": 0,
+  "desc": "A tiny studio. Thin walls, cheap rent."
+ },
+ {
+  "id": "apt_mid",
+  "name": "Elm Court Apartment",
+  "kind": "home",
+  "rent": 800,
+  "price": 0,
+  "quality": 2,
+  "maintenance": 0,
+  "desc": "One bedroom, decent kitchen."
+ },
+ {
+  "id": "apt_nice",
+  "name": "Riverside Flat",
+  "kind": "home",
+  "rent": 1400,
+  "price": 0,
+  "quality": 3,
+  "maintenance": 0,
+  "desc": "Bright flat near downtown."
+ },
+ {
+  "id": "apt_luxury",
+  "name": "Skyline Penthouse",
+  "kind": "home",
+  "rent": 4200,
+  "price": 520000,
+  "quality": 5,
+  "maintenance": 350,
+  "desc": "Penthouse in the financial district."
+ },
+ {
+  "id": "house_small",
+  "name": "Starter House",
+  "kind": "home",
+  "rent": 1300,
+  "price": 140000,
+  "quality": 3,
+  "maintenance": 120,
+  "desc": "Small house in the suburbs."
+ },
+ {
+  "id": "house_family",
+  "name": "Family House",
+  "kind": "home",
+  "rent": 2000,
+  "price": 260000,
+  "quality": 4,
+  "maintenance": 200,
+  "desc": "Spacious house with a garden."
+ },
+ {
+  "id": "house_lux",
+  "name": "Luxury Villa",
+  "kind": "home",
+  "rent": 0,
+  "price": 900000,
+  "quality": 6,
+  "maintenance": 600,
+  "desc": "Pool, garden, view."
+ },
+ {
+  "id": "unit_shop_a",
+  "name": "Shop Unit A",
+  "kind": "commercial",
+  "rent": 1200,
+  "price": 180000,
+  "quality": 2,
+  "maintenance": 100,
+  "desc": "Commercial unit on a busy street."
+ },
+ {
+  "id": "unit_shop_b",
+  "name": "Shop Unit B",
+  "kind": "commercial",
+  "rent": 1800,
+  "price": 260000,
+  "quality": 3,
+  "maintenance": 140,
+  "desc": "Larger commercial unit."
+ },
+ {
+  "id": "unit_ind",
+  "name": "Industrial Unit",
+  "kind": "commercial",
+  "rent": 1500,
+  "price": 210000,
+  "quality": 2,
+  "maintenance": 120,
+  "desc": "Workshop unit in the industrial district."
+ }
+]

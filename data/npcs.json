@@ -1,0 +1,722 @@
+[
+ {
+  "id": "sarah",
+  "name": "Sarah Chen",
+  "age": 26,
+  "gender": "f",
+  "job": "Barista",
+  "personality": "friendly",
+  "home": "apt_basic",
+  "work": "cafe_res",
+  "money": 900,
+  "romance_ok": true,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "bistro"
+   ],
+   [
+    19,
+    "park_res"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "bistro"
+   ],
+   [
+    18,
+    "park_res"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ },
+ {
+  "id": "marcus",
+  "name": "Marcus Reed",
+  "age": 34,
+  "gender": "m",
+  "job": "Software Engineer",
+  "personality": "ambitious",
+  "home": "apt_nice",
+  "work": "office_nova",
+  "money": 5200,
+  "romance_ok": true,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "gym_dt"
+   ],
+   [
+    19,
+    "bistro"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "gym_dt"
+   ],
+   [
+    18,
+    "bistro"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ },
+ {
+  "id": "elena",
+  "name": "Elena Rossi",
+  "age": 29,
+  "gender": "f",
+  "job": "Waitress",
+  "personality": "funny",
+  "home": "apt_mid",
+  "work": "bistro",
+  "money": 1200,
+  "romance_ok": true,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "cinema"
+   ],
+   [
+    19,
+    "cafe_plaza"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "cinema"
+   ],
+   [
+    18,
+    "cafe_plaza"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ },
+ {
+  "id": "tom",
+  "name": "Tom Baker",
+  "age": 41,
+  "gender": "m",
+  "job": "Cashier",
+  "personality": "lazy",
+  "home": "apt_mid",
+  "work": "grocery_res",
+  "money": 800,
+  "romance_ok": false,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "diner_ent"
+   ],
+   [
+    19,
+    "park_res"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "diner_ent"
+   ],
+   [
+    18,
+    "park_res"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ },
+ {
+  "id": "priya",
+  "name": "Dr. Priya Nair",
+  "age": 38,
+  "gender": "f",
+  "job": "Doctor",
+  "personality": "serious",
+  "home": "apt_nice",
+  "work": "clinic",
+  "money": 9000,
+  "romance_ok": true,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "library"
+   ],
+   [
+    19,
+    "bistro"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "library"
+   ],
+   [
+    18,
+    "bistro"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ },
+ {
+  "id": "jake",
+  "name": "Jake Miller",
+  "age": 31,
+  "gender": "m",
+  "job": "Factory Worker",
+  "personality": "aggressive",
+  "home": "apt_basic",
+  "work": "factory",
+  "money": 1500,
+  "romance_ok": true,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "nightclub"
+   ],
+   [
+    19,
+    "diner_ent"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "nightclub"
+   ],
+   [
+    18,
+    "diner_ent"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ },
+ {
+  "id": "okafor",
+  "name": "Mrs. Okafor",
+  "age": 58,
+  "gender": "f",
+  "job": "Bank Manager",
+  "personality": "wealthy",
+  "home": "house_family",
+  "work": "bank_dt",
+  "money": 60000,
+  "romance_ok": false,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "lux_rest"
+   ],
+   [
+    19,
+    "park_sub"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "lux_rest"
+   ],
+   [
+    18,
+    "park_sub"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ },
+ {
+  "id": "leo",
+  "name": "Leo Park",
+  "age": 21,
+  "gender": "m",
+  "job": "Student",
+  "personality": "shy",
+  "home": "apt_basic",
+  "work": "uni",
+  "money": 300,
+  "romance_ok": true,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "library"
+   ],
+   [
+    19,
+    "arcade"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "library"
+   ],
+   [
+    18,
+    "arcade"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ },
+ {
+  "id": "mia",
+  "name": "Mia Johnson",
+  "age": 24,
+  "gender": "f",
+  "job": "Retail Worker",
+  "personality": "poor",
+  "home": "apt_basic",
+  "work": "clothing",
+  "money": 250,
+  "romance_ok": true,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "arcade"
+   ],
+   [
+    19,
+    "cafe_plaza"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "arcade"
+   ],
+   [
+    18,
+    "cafe_plaza"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ },
+ {
+  "id": "diego",
+  "name": "Diego Alvarez",
+  "age": 36,
+  "gender": "m",
+  "job": "Mechanic",
+  "personality": "friendly",
+  "home": "apt_mid",
+  "work": "workshop",
+  "money": 2200,
+  "romance_ok": true,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "sports"
+   ],
+   [
+    19,
+    "diner_ent"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "sports"
+   ],
+   [
+    18,
+    "diner_ent"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ },
+ {
+  "id": "hannah",
+  "name": "Hannah Weiss",
+  "age": 33,
+  "gender": "f",
+  "job": "Lawyer",
+  "personality": "ambitious",
+  "home": "apt_luxury",
+  "work": "office_summit",
+  "money": 12000,
+  "romance_ok": true,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "lux_rest"
+   ],
+   [
+    19,
+    "gym_dt"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "lux_rest"
+   ],
+   [
+    18,
+    "gym_dt"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ },
+ {
+  "id": "sam",
+  "name": "Sam Carter",
+  "age": 27,
+  "gender": "m",
+  "job": "Cinema Clerk",
+  "personality": "funny",
+  "home": "apt_basic",
+  "work": "cinema",
+  "money": 700,
+  "romance_ok": true,
+  "schedule": [
+   [
+    0,
+    "home"
+   ],
+   [
+    7,
+    "home"
+   ],
+   [
+    8,
+    "work"
+   ],
+   [
+    17,
+    "nightclub"
+   ],
+   [
+    19,
+    "arcade"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ],
+  "weekend": [
+   [
+    0,
+    "home"
+   ],
+   [
+    10,
+    "park_central"
+   ],
+   [
+    13,
+    "nightclub"
+   ],
+   [
+    18,
+    "arcade"
+   ],
+   [
+    22,
+    "home"
+   ]
+  ]
+ }
+]
